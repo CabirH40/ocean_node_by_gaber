@@ -7,7 +7,15 @@ To install Docker, run the following command:
 sudo bash -c "$(curl -s https://get.docker.com)"
 sudo mkdir -p /home/$USER/ocean && cd /home/$USER/ocean
 sudo bash -c "$(curl -s https://raw.githubusercontent.com/oceanprotocol/ocean-node/main/scripts/ocean-node-quickstart.sh)"
-### Key points:
-- **Triple backticks** ``` open and close the code block.
-- **No syntax highlighting** is needed unless you specify a language (like `bash` in this case).
-- **You can add text after the code block**, and it will not be treated as code.
+### When prompted:
+
+Do you have your private key for running the Ocean Node [ y/n ]: Type N if you don’t have a private key.
+Do you want me to create a private key for you [ y/n ]: Type Y to generate a new private key.
+Make sure to save the private key securely after it’s generated.
+enter the evm adress 
+Provide the HTTP_API_PORT value or accept the default (press Enter) [8000]:ENTER
+Provide the P2P_ipV4BindTcpPort or accept the default (press Enter) [9000]:ENTER
+Provide the P2P_ipV4BindWsPort or accept the default (press Enter) [9001]:ENTER
+Provide the P2P_ipV6BindTcpPort or accept the default (press Enter) [9002]:ENTER
+Provide the P2P_ipV6BindWsPort or accept the default (press Enter) [9003]:ENTER
+Provide the public IPv4 address or FQDN where this node will be accessible: your vps global ip and ENTER
