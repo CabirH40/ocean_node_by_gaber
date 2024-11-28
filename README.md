@@ -1,4 +1,9 @@
 # ocean_node_by_gaber
+🖥Hardware Requirements:
+➡️CPU: 1vcpu
+➡️Memory: 2 GB ram
+➡️Storage: 4 GB storage
+➡️OS: we recommend using the latest LTS version of Ubuntu or the latest macOS. However, the nodes should also work on other operating systems including Windows.
 
 ### 1. Install Docker (using sudo)
 
