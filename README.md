@@ -19,3 +19,6 @@ Provide the P2P_ipV4BindWsPort or accept the default (press Enter) [9001]:ENTER
 Provide the P2P_ipV6BindTcpPort or accept the default (press Enter) [9002]:ENTER
 Provide the P2P_ipV6BindWsPort or accept the default (press Enter) [9003]:ENTER
 Provide the public IPv4 address or FQDN where this node will be accessible: your vps global ip and ENTER
+
+### Run code:
+sudo docker compose up -d
