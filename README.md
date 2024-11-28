@@ -1,7 +1,7 @@
 # ocean_node_by_gaber
 
 ### 1. Install Docker (using sudo)
-To install Docker, run the following command:
+
 don't copy all just step by step 
 ```bash
 sudo bash -c "$(curl -s https://get.docker.com)"
