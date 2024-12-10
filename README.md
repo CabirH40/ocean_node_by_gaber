@@ -28,10 +28,10 @@ Provide the public IPv4 address or FQDN where this node will be accessible: your
 
 ### Run code:
 sudo docker compose up -d
-### logs
+### logs:
 sudo docker compose logs -f
-
-
+### off code:
+sudo docker compose down
 
 ###Check Ocean Node Status:
 http://yourserverIp:8000/dashboard/
